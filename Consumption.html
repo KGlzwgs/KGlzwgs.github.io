@@ -7,16 +7,16 @@
 
 </head>
 <body >
-    <div id="57bd29c9e00f4227895112b94c9ca2c4" class="chart-container" style="width:900px; height:500px; "></div>
+    <div id="1c194954eb6046c491bde9e02bbd169d" class="chart-container" style="width:900px; height:500px; "></div>
     <script>
-        var chart_57bd29c9e00f4227895112b94c9ca2c4 = echarts.init(
-            document.getElementById('57bd29c9e00f4227895112b94c9ca2c4'), 'white', {renderer: 'canvas'});
-        var option_57bd29c9e00f4227895112b94c9ca2c4 = {
+        var chart_1c194954eb6046c491bde9e02bbd169d = echarts.init(
+            document.getElementById('1c194954eb6046c491bde9e02bbd169d'), 'white', {renderer: 'canvas'});
+        var option_1c194954eb6046c491bde9e02bbd169d = {
     "baseOption": {
         "series": [
             {
                 "type": "bar",
-                "name": "Renewables",
+                "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                 "legendHoverLink": true,
                 "data": [
                     0.58,
@@ -61,7 +61,7 @@
             },
             {
                 "type": "bar",
-                "name": "Hydro",
+                "name": "\u6c34\u7535",
                 "legendHoverLink": true,
                 "data": [
                     3.59,
@@ -106,7 +106,7 @@
             },
             {
                 "type": "bar",
-                "name": "Oil",
+                "name": "\u77f3\u6cb9",
                 "legendHoverLink": true,
                 "data": [
                     4.17,
@@ -151,7 +151,7 @@
             },
             {
                 "type": "bar",
-                "name": "Coal",
+                "name": "\u7164\u70ad",
                 "legendHoverLink": true,
                 "data": [
                     0.48,
@@ -196,7 +196,7 @@
             },
             {
                 "type": "bar",
-                "name": "Gas",
+                "name": "\u5929\u7136\u6c14",
                 "legendHoverLink": true,
                 "data": [
                     4.29,
@@ -241,7 +241,7 @@
             },
             {
                 "type": "bar",
-                "name": "Nuclear",
+                "name": "\u6838\u80fd",
                 "legendHoverLink": true,
                 "data": [
                     0.83,
@@ -289,7 +289,7 @@
             "axisType": "category",
             "currentIndex": 0,
             "orient": "horizontal",
-            "autoPlay": true,
+            "autoPlay": false,
             "controlPosition": "left",
             "loop": true,
             "rewind": false,
@@ -333,7 +333,6 @@
                 "gridIndex": 0,
                 "axisLabel": {
                     "show": true,
-                    "rotate": 45,
                     "margin": 8,
                     "fontSize": 12
                 },
@@ -352,22 +351,23 @@
                     }
                 },
                 "data": [
-                    "Canada",
-                    "US",
-                    "France",
-                    "Germany",
-                    "United Kingdom",
-                    "China",
-                    "India",
-                    "Japan",
-                    "Russian Federation",
-                    "Brazil"
+                    "\u52a0\u62ff\u5927",
+                    "\u7f8e\u56fd",
+                    "\u6cd5\u56fd",
+                    "\u5fb7\u56fd",
+                    "\u82f1\u56fd",
+                    "\u4e2d\u56fd",
+                    "\u610f\u5927\u5229",
+                    "\u65e5\u672c",
+                    "\u4fc4\u7f57\u65af",
+                    "\u5df4\u897f"
                 ]
             }
         ],
         "yAxis": [
             {
                 "type": "value",
+                "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                 "show": true,
                 "scale": false,
                 "nameLocation": "end",
@@ -376,7 +376,7 @@
                 "axisLabel": {
                     "show": true,
                     "margin": 8,
-                    "formatter": "{value} Exajoules"
+                    "formatter": "{value}"
                 },
                 "inverse": false,
                 "offset": 0,
@@ -401,20 +401,20 @@
             "legend": [
                 {
                     "data": [
-                        "Renewables",
-                        "Hydro",
-                        "Oil",
-                        "Coal",
-                        "Gas",
-                        "Nuclear"
+                        "\u53ef\u518d\u751f\u80fd\u6e90",
+                        "\u6c34\u7535",
+                        "\u77f3\u6cb9",
+                        "\u7164\u70ad",
+                        "\u5929\u7136\u6c14",
+                        "\u6838\u80fd"
                     ],
                     "selected": {
-                        "Renewables": true,
-                        "Hydro": true,
-                        "Oil": true,
-                        "Coal": true,
-                        "Gas": true,
-                        "Nuclear": true
+                        "\u53ef\u518d\u751f\u80fd\u6e90": true,
+                        "\u6c34\u7535": true,
+                        "\u77f3\u6cb9": true,
+                        "\u7164\u70ad": true,
+                        "\u5929\u7136\u6c14": true,
+                        "\u6838\u80fd": true
                     },
                     "show": true,
                     "left": "right",
@@ -444,7 +444,7 @@
             "series": [
                 {
                     "type": "bar",
-                    "name": "Renewables",
+                    "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                     "legendHoverLink": true,
                     "data": [
                         0.11,
@@ -489,7 +489,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Hydro",
+                    "name": "\u6c34\u7535",
                     "legendHoverLink": true,
                     "data": [
                         3.8,
@@ -534,7 +534,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Oil",
+                    "name": "\u77f3\u6cb9",
                     "legendHoverLink": true,
                     "data": [
                         3.99,
@@ -579,7 +579,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Coal",
+                    "name": "\u7164\u70ad",
                     "legendHoverLink": true,
                     "data": [
                         1.28,
@@ -624,7 +624,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Gas",
+                    "name": "\u5929\u7136\u6c14",
                     "legendHoverLink": true,
                     "data": [
                         3.21,
@@ -669,7 +669,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Nuclear",
+                    "name": "\u6838\u80fd",
                     "legendHoverLink": true,
                     "data": [
                         0.74,
@@ -723,7 +723,6 @@
                     "gridIndex": 0,
                     "axisLabel": {
                         "show": true,
-                        "rotate": 45,
                         "margin": 8,
                         "fontSize": 12
                     },
@@ -742,22 +741,23 @@
                         }
                     },
                     "data": [
-                        "Canada",
-                        "US",
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "China",
-                        "India",
-                        "Japan",
-                        "Russian Federation",
-                        "Brazil"
+                        "\u52a0\u62ff\u5927",
+                        "\u7f8e\u56fd",
+                        "\u6cd5\u56fd",
+                        "\u5fb7\u56fd",
+                        "\u82f1\u56fd",
+                        "\u4e2d\u56fd",
+                        "\u610f\u5927\u5229",
+                        "\u65e5\u672c",
+                        "\u4fc4\u7f57\u65af",
+                        "\u5df4\u897f"
                     ]
                 }
             ],
             "yAxis": [
                 {
                     "type": "value",
+                    "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                     "show": true,
                     "scale": false,
                     "nameLocation": "end",
@@ -766,7 +766,7 @@
                     "axisLabel": {
                         "show": true,
                         "margin": 8,
-                        "formatter": "{value} Exajoules"
+                        "formatter": "{value}"
                     },
                     "inverse": false,
                     "offset": 0,
@@ -788,9 +788,8 @@
             "title": [
                 {
                     "show": true,
-                    "text": "Energy Consumption by Country (2000)",
+                    "text": "\u6309\u56fd\u5bb6\u3001\u80fd\u6e90\u5206\u5217\u7684\u80fd\u6e90\u6d88\u8d39\u603b\u91cf (2000)",
                     "target": "blank",
-                    "subtext": "Total energy consumption by country, by energy source",
                     "subtarget": "blank",
                     "padding": 5,
                     "itemGap": 10,
@@ -837,20 +836,20 @@
             "legend": [
                 {
                     "data": [
-                        "Renewables",
-                        "Hydro",
-                        "Oil",
-                        "Coal",
-                        "Gas",
-                        "Nuclear"
+                        "\u53ef\u518d\u751f\u80fd\u6e90",
+                        "\u6c34\u7535",
+                        "\u77f3\u6cb9",
+                        "\u7164\u70ad",
+                        "\u5929\u7136\u6c14",
+                        "\u6838\u80fd"
                     ],
                     "selected": {
-                        "Renewables": true,
-                        "Hydro": true,
-                        "Oil": true,
-                        "Coal": true,
-                        "Gas": true,
-                        "Nuclear": true
+                        "\u53ef\u518d\u751f\u80fd\u6e90": true,
+                        "\u6c34\u7535": true,
+                        "\u77f3\u6cb9": true,
+                        "\u7164\u70ad": true,
+                        "\u5929\u7136\u6c14": true,
+                        "\u6838\u80fd": true
                     },
                     "show": true,
                     "left": "right",
@@ -880,7 +879,7 @@
             "series": [
                 {
                     "type": "bar",
-                    "name": "Renewables",
+                    "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                     "legendHoverLink": true,
                     "data": [
                         0.12,
@@ -925,7 +924,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Hydro",
+                    "name": "\u6c34\u7535",
                     "legendHoverLink": true,
                     "data": [
                         3.51,
@@ -970,7 +969,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Oil",
+                    "name": "\u77f3\u6cb9",
                     "legendHoverLink": true,
                     "data": [
                         4.11,
@@ -1015,7 +1014,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Coal",
+                    "name": "\u7164\u70ad",
                     "legendHoverLink": true,
                     "data": [
                         1.33,
@@ -1060,7 +1059,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Gas",
+                    "name": "\u5929\u7136\u6c14",
                     "legendHoverLink": true,
                     "data": [
                         3.03,
@@ -1105,7 +1104,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Nuclear",
+                    "name": "\u6838\u80fd",
                     "legendHoverLink": true,
                     "data": [
                         0.77,
@@ -1159,7 +1158,6 @@
                     "gridIndex": 0,
                     "axisLabel": {
                         "show": true,
-                        "rotate": 45,
                         "margin": 8,
                         "fontSize": 12
                     },
@@ -1178,22 +1176,23 @@
                         }
                     },
                     "data": [
-                        "Canada",
-                        "US",
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "China",
-                        "India",
-                        "Japan",
-                        "Russian Federation",
-                        "Brazil"
+                        "\u52a0\u62ff\u5927",
+                        "\u7f8e\u56fd",
+                        "\u6cd5\u56fd",
+                        "\u5fb7\u56fd",
+                        "\u82f1\u56fd",
+                        "\u4e2d\u56fd",
+                        "\u610f\u5927\u5229",
+                        "\u65e5\u672c",
+                        "\u4fc4\u7f57\u65af",
+                        "\u5df4\u897f"
                     ]
                 }
             ],
             "yAxis": [
                 {
                     "type": "value",
+                    "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                     "show": true,
                     "scale": false,
                     "nameLocation": "end",
@@ -1202,7 +1201,7 @@
                     "axisLabel": {
                         "show": true,
                         "margin": 8,
-                        "formatter": "{value} Exajoules"
+                        "formatter": "{value}"
                     },
                     "inverse": false,
                     "offset": 0,
@@ -1224,9 +1223,8 @@
             "title": [
                 {
                     "show": true,
-                    "text": "Energy Consumption by Country (2001)",
+                    "text": "\u6309\u56fd\u5bb6\u3001\u80fd\u6e90\u5206\u5217\u7684\u80fd\u6e90\u6d88\u8d39\u603b\u91cf (2001)",
                     "target": "blank",
-                    "subtext": "Total energy consumption by country, by energy source",
                     "subtarget": "blank",
                     "padding": 5,
                     "itemGap": 10,
@@ -1273,20 +1271,20 @@
             "legend": [
                 {
                     "data": [
-                        "Renewables",
-                        "Hydro",
-                        "Oil",
-                        "Coal",
-                        "Gas",
-                        "Nuclear"
+                        "\u53ef\u518d\u751f\u80fd\u6e90",
+                        "\u6c34\u7535",
+                        "\u77f3\u6cb9",
+                        "\u7164\u70ad",
+                        "\u5929\u7136\u6c14",
+                        "\u6838\u80fd"
                     ],
                     "selected": {
-                        "Renewables": true,
-                        "Hydro": true,
-                        "Oil": true,
-                        "Coal": true,
-                        "Gas": true,
-                        "Nuclear": true
+                        "\u53ef\u518d\u751f\u80fd\u6e90": true,
+                        "\u6c34\u7535": true,
+                        "\u77f3\u6cb9": true,
+                        "\u7164\u70ad": true,
+                        "\u5929\u7136\u6c14": true,
+                        "\u6838\u80fd": true
                     },
                     "show": true,
                     "left": "right",
@@ -1316,7 +1314,7 @@
             "series": [
                 {
                     "type": "bar",
-                    "name": "Renewables",
+                    "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                     "legendHoverLink": true,
                     "data": [
                         0.13,
@@ -1361,7 +1359,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Hydro",
+                    "name": "\u6c34\u7535",
                     "legendHoverLink": true,
                     "data": [
                         3.67,
@@ -1406,7 +1404,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Oil",
+                    "name": "\u77f3\u6cb9",
                     "legendHoverLink": true,
                     "data": [
                         4.26,
@@ -1451,7 +1449,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Coal",
+                    "name": "\u7164\u70ad",
                     "legendHoverLink": true,
                     "data": [
                         1.34,
@@ -1496,7 +1494,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Gas",
+                    "name": "\u5929\u7136\u6c14",
                     "legendHoverLink": true,
                     "data": [
                         3.15,
@@ -1541,7 +1539,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Nuclear",
+                    "name": "\u6838\u80fd",
                     "legendHoverLink": true,
                     "data": [
                         0.76,
@@ -1595,7 +1593,6 @@
                     "gridIndex": 0,
                     "axisLabel": {
                         "show": true,
-                        "rotate": 45,
                         "margin": 8,
                         "fontSize": 12
                     },
@@ -1614,22 +1611,23 @@
                         }
                     },
                     "data": [
-                        "Canada",
-                        "US",
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "China",
-                        "India",
-                        "Japan",
-                        "Russian Federation",
-                        "Brazil"
+                        "\u52a0\u62ff\u5927",
+                        "\u7f8e\u56fd",
+                        "\u6cd5\u56fd",
+                        "\u5fb7\u56fd",
+                        "\u82f1\u56fd",
+                        "\u4e2d\u56fd",
+                        "\u610f\u5927\u5229",
+                        "\u65e5\u672c",
+                        "\u4fc4\u7f57\u65af",
+                        "\u5df4\u897f"
                     ]
                 }
             ],
             "yAxis": [
                 {
                     "type": "value",
+                    "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                     "show": true,
                     "scale": false,
                     "nameLocation": "end",
@@ -1638,7 +1636,7 @@
                     "axisLabel": {
                         "show": true,
                         "margin": 8,
-                        "formatter": "{value} Exajoules"
+                        "formatter": "{value}"
                     },
                     "inverse": false,
                     "offset": 0,
@@ -1660,9 +1658,8 @@
             "title": [
                 {
                     "show": true,
-                    "text": "Energy Consumption by Country (2002)",
+                    "text": "\u6309\u56fd\u5bb6\u3001\u80fd\u6e90\u5206\u5217\u7684\u80fd\u6e90\u6d88\u8d39\u603b\u91cf (2002)",
                     "target": "blank",
-                    "subtext": "Total energy consumption by country, by energy source",
                     "subtarget": "blank",
                     "padding": 5,
                     "itemGap": 10,
@@ -1709,20 +1706,20 @@
             "legend": [
                 {
                     "data": [
-                        "Renewables",
-                        "Hydro",
-                        "Oil",
-                        "Coal",
-                        "Gas",
-                        "Nuclear"
+                        "\u53ef\u518d\u751f\u80fd\u6e90",
+                        "\u6c34\u7535",
+                        "\u77f3\u6cb9",
+                        "\u7164\u70ad",
+                        "\u5929\u7136\u6c14",
+                        "\u6838\u80fd"
                     ],
                     "selected": {
-                        "Renewables": true,
-                        "Hydro": true,
-                        "Oil": true,
-                        "Coal": true,
-                        "Gas": true,
-                        "Nuclear": true
+                        "\u53ef\u518d\u751f\u80fd\u6e90": true,
+                        "\u6c34\u7535": true,
+                        "\u77f3\u6cb9": true,
+                        "\u7164\u70ad": true,
+                        "\u5929\u7136\u6c14": true,
+                        "\u6838\u80fd": true
                     },
                     "show": true,
                     "left": "right",
@@ -1752,7 +1749,7 @@
             "series": [
                 {
                     "type": "bar",
-                    "name": "Renewables",
+                    "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                     "legendHoverLink": true,
                     "data": [
                         0.12,
@@ -1797,7 +1794,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Hydro",
+                    "name": "\u6c34\u7535",
                     "legendHoverLink": true,
                     "data": [
                         3.51,
@@ -1842,7 +1839,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Oil",
+                    "name": "\u77f3\u6cb9",
                     "legendHoverLink": true,
                     "data": [
                         4.42,
@@ -1887,7 +1884,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Coal",
+                    "name": "\u7164\u70ad",
                     "legendHoverLink": true,
                     "data": [
                         1.33,
@@ -1932,7 +1929,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Gas",
+                    "name": "\u5929\u7136\u6c14",
                     "legendHoverLink": true,
                     "data": [
                         3.23,
@@ -1977,7 +1974,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Nuclear",
+                    "name": "\u6838\u80fd",
                     "legendHoverLink": true,
                     "data": [
                         0.75,
@@ -2031,7 +2028,6 @@
                     "gridIndex": 0,
                     "axisLabel": {
                         "show": true,
-                        "rotate": 45,
                         "margin": 8,
                         "fontSize": 12
                     },
@@ -2050,22 +2046,23 @@
                         }
                     },
                     "data": [
-                        "Canada",
-                        "US",
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "China",
-                        "India",
-                        "Japan",
-                        "Russian Federation",
-                        "Brazil"
+                        "\u52a0\u62ff\u5927",
+                        "\u7f8e\u56fd",
+                        "\u6cd5\u56fd",
+                        "\u5fb7\u56fd",
+                        "\u82f1\u56fd",
+                        "\u4e2d\u56fd",
+                        "\u610f\u5927\u5229",
+                        "\u65e5\u672c",
+                        "\u4fc4\u7f57\u65af",
+                        "\u5df4\u897f"
                     ]
                 }
             ],
             "yAxis": [
                 {
                     "type": "value",
+                    "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                     "show": true,
                     "scale": false,
                     "nameLocation": "end",
@@ -2074,7 +2071,7 @@
                     "axisLabel": {
                         "show": true,
                         "margin": 8,
-                        "formatter": "{value} Exajoules"
+                        "formatter": "{value}"
                     },
                     "inverse": false,
                     "offset": 0,
@@ -2096,9 +2093,8 @@
             "title": [
                 {
                     "show": true,
-                    "text": "Energy Consumption by Country (2003)",
+                    "text": "\u6309\u56fd\u5bb6\u3001\u80fd\u6e90\u5206\u5217\u7684\u80fd\u6e90\u6d88\u8d39\u603b\u91cf (2003)",
                     "target": "blank",
-                    "subtext": "Total energy consumption by country, by energy source",
                     "subtarget": "blank",
                     "padding": 5,
                     "itemGap": 10,
@@ -2145,20 +2141,20 @@
             "legend": [
                 {
                     "data": [
-                        "Renewables",
-                        "Hydro",
-                        "Oil",
-                        "Coal",
-                        "Gas",
-                        "Nuclear"
+                        "\u53ef\u518d\u751f\u80fd\u6e90",
+                        "\u6c34\u7535",
+                        "\u77f3\u6cb9",
+                        "\u7164\u70ad",
+                        "\u5929\u7136\u6c14",
+                        "\u6838\u80fd"
                     ],
                     "selected": {
-                        "Renewables": true,
-                        "Hydro": true,
-                        "Oil": true,
-                        "Coal": true,
-                        "Gas": true,
-                        "Nuclear": true
+                        "\u53ef\u518d\u751f\u80fd\u6e90": true,
+                        "\u6c34\u7535": true,
+                        "\u77f3\u6cb9": true,
+                        "\u7164\u70ad": true,
+                        "\u5929\u7136\u6c14": true,
+                        "\u6838\u80fd": true
                     },
                     "show": true,
                     "left": "right",
@@ -2188,7 +2184,7 @@
             "series": [
                 {
                     "type": "bar",
-                    "name": "Renewables",
+                    "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                     "legendHoverLink": true,
                     "data": [
                         0.13,
@@ -2233,7 +2229,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Hydro",
+                    "name": "\u6c34\u7535",
                     "legendHoverLink": true,
                     "data": [
                         3.51,
@@ -2278,7 +2274,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Oil",
+                    "name": "\u77f3\u6cb9",
                     "legendHoverLink": true,
                     "data": [
                         4.61,
@@ -2323,7 +2319,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Coal",
+                    "name": "\u7164\u70ad",
                     "legendHoverLink": true,
                     "data": [
                         1.26,
@@ -2368,7 +2364,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Gas",
+                    "name": "\u5929\u7136\u6c14",
                     "legendHoverLink": true,
                     "data": [
                         3.16,
@@ -2413,7 +2409,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Nuclear",
+                    "name": "\u6838\u80fd",
                     "legendHoverLink": true,
                     "data": [
                         0.89,
@@ -2467,7 +2463,6 @@
                     "gridIndex": 0,
                     "axisLabel": {
                         "show": true,
-                        "rotate": 45,
                         "margin": 8,
                         "fontSize": 12
                     },
@@ -2486,22 +2481,23 @@
                         }
                     },
                     "data": [
-                        "Canada",
-                        "US",
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "China",
-                        "India",
-                        "Japan",
-                        "Russian Federation",
-                        "Brazil"
+                        "\u52a0\u62ff\u5927",
+                        "\u7f8e\u56fd",
+                        "\u6cd5\u56fd",
+                        "\u5fb7\u56fd",
+                        "\u82f1\u56fd",
+                        "\u4e2d\u56fd",
+                        "\u610f\u5927\u5229",
+                        "\u65e5\u672c",
+                        "\u4fc4\u7f57\u65af",
+                        "\u5df4\u897f"
                     ]
                 }
             ],
             "yAxis": [
                 {
                     "type": "value",
+                    "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                     "show": true,
                     "scale": false,
                     "nameLocation": "end",
@@ -2510,7 +2506,7 @@
                     "axisLabel": {
                         "show": true,
                         "margin": 8,
-                        "formatter": "{value} Exajoules"
+                        "formatter": "{value}"
                     },
                     "inverse": false,
                     "offset": 0,
@@ -2532,9 +2528,8 @@
             "title": [
                 {
                     "show": true,
-                    "text": "Energy Consumption by Country (2004)",
+                    "text": "\u6309\u56fd\u5bb6\u3001\u80fd\u6e90\u5206\u5217\u7684\u80fd\u6e90\u6d88\u8d39\u603b\u91cf (2004)",
                     "target": "blank",
-                    "subtext": "Total energy consumption by country, by energy source",
                     "subtarget": "blank",
                     "padding": 5,
                     "itemGap": 10,
@@ -2581,20 +2576,20 @@
             "legend": [
                 {
                     "data": [
-                        "Renewables",
-                        "Hydro",
-                        "Oil",
-                        "Coal",
-                        "Gas",
-                        "Nuclear"
+                        "\u53ef\u518d\u751f\u80fd\u6e90",
+                        "\u6c34\u7535",
+                        "\u77f3\u6cb9",
+                        "\u7164\u70ad",
+                        "\u5929\u7136\u6c14",
+                        "\u6838\u80fd"
                     ],
                     "selected": {
-                        "Renewables": true,
-                        "Hydro": true,
-                        "Oil": true,
-                        "Coal": true,
-                        "Gas": true,
-                        "Nuclear": true
+                        "\u53ef\u518d\u751f\u80fd\u6e90": true,
+                        "\u6c34\u7535": true,
+                        "\u77f3\u6cb9": true,
+                        "\u7164\u70ad": true,
+                        "\u5929\u7136\u6c14": true,
+                        "\u6838\u80fd": true
                     },
                     "show": true,
                     "left": "right",
@@ -2624,7 +2619,7 @@
             "series": [
                 {
                     "type": "bar",
-                    "name": "Renewables",
+                    "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                     "legendHoverLink": true,
                     "data": [
                         0.13,
@@ -2669,7 +2664,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Hydro",
+                    "name": "\u6c34\u7535",
                     "legendHoverLink": true,
                     "data": [
                         3.73,
@@ -2714,7 +2709,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Oil",
+                    "name": "\u77f3\u6cb9",
                     "legendHoverLink": true,
                     "data": [
                         4.48,
@@ -2759,7 +2754,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Coal",
+                    "name": "\u7164\u70ad",
                     "legendHoverLink": true,
                     "data": [
                         1.25,
@@ -2804,7 +2799,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Gas",
+                    "name": "\u5929\u7136\u6c14",
                     "legendHoverLink": true,
                     "data": [
                         3.15,
@@ -2849,7 +2844,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Nuclear",
+                    "name": "\u6838\u80fd",
                     "legendHoverLink": true,
                     "data": [
                         0.9,
@@ -2903,7 +2898,6 @@
                     "gridIndex": 0,
                     "axisLabel": {
                         "show": true,
-                        "rotate": 45,
                         "margin": 8,
                         "fontSize": 12
                     },
@@ -2922,22 +2916,23 @@
                         }
                     },
                     "data": [
-                        "Canada",
-                        "US",
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "China",
-                        "India",
-                        "Japan",
-                        "Russian Federation",
-                        "Brazil"
+                        "\u52a0\u62ff\u5927",
+                        "\u7f8e\u56fd",
+                        "\u6cd5\u56fd",
+                        "\u5fb7\u56fd",
+                        "\u82f1\u56fd",
+                        "\u4e2d\u56fd",
+                        "\u610f\u5927\u5229",
+                        "\u65e5\u672c",
+                        "\u4fc4\u7f57\u65af",
+                        "\u5df4\u897f"
                     ]
                 }
             ],
             "yAxis": [
                 {
                     "type": "value",
+                    "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                     "show": true,
                     "scale": false,
                     "nameLocation": "end",
@@ -2946,7 +2941,7 @@
                     "axisLabel": {
                         "show": true,
                         "margin": 8,
-                        "formatter": "{value} Exajoules"
+                        "formatter": "{value}"
                     },
                     "inverse": false,
                     "offset": 0,
@@ -2968,9 +2963,8 @@
             "title": [
                 {
                     "show": true,
-                    "text": "Energy Consumption by Country (2005)",
+                    "text": "\u6309\u56fd\u5bb6\u3001\u80fd\u6e90\u5206\u5217\u7684\u80fd\u6e90\u6d88\u8d39\u603b\u91cf (2005)",
                     "target": "blank",
-                    "subtext": "Total energy consumption by country, by energy source",
                     "subtarget": "blank",
                     "padding": 5,
                     "itemGap": 10,
@@ -3017,20 +3011,20 @@
             "legend": [
                 {
                     "data": [
-                        "Renewables",
-                        "Hydro",
-                        "Oil",
-                        "Coal",
-                        "Gas",
-                        "Nuclear"
+                        "\u53ef\u518d\u751f\u80fd\u6e90",
+                        "\u6c34\u7535",
+                        "\u77f3\u6cb9",
+                        "\u7164\u70ad",
+                        "\u5929\u7136\u6c14",
+                        "\u6838\u80fd"
                     ],
                     "selected": {
-                        "Renewables": true,
-                        "Hydro": true,
-                        "Oil": true,
-                        "Coal": true,
-                        "Gas": true,
-                        "Nuclear": true
+                        "\u53ef\u518d\u751f\u80fd\u6e90": true,
+                        "\u6c34\u7535": true,
+                        "\u77f3\u6cb9": true,
+                        "\u7164\u70ad": true,
+                        "\u5929\u7136\u6c14": true,
+                        "\u6838\u80fd": true
                     },
                     "show": true,
                     "left": "right",
@@ -3060,7 +3054,7 @@
             "series": [
                 {
                     "type": "bar",
-                    "name": "Renewables",
+                    "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                     "legendHoverLink": true,
                     "data": [
                         0.14,
@@ -3105,7 +3099,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Hydro",
+                    "name": "\u6c34\u7535",
                     "legendHoverLink": true,
                     "data": [
                         3.61,
@@ -3150,7 +3144,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Oil",
+                    "name": "\u77f3\u6cb9",
                     "legendHoverLink": true,
                     "data": [
                         4.52,
@@ -3195,7 +3189,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Coal",
+                    "name": "\u7164\u70ad",
                     "legendHoverLink": true,
                     "data": [
                         1.21,
@@ -3240,7 +3234,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Gas",
+                    "name": "\u5929\u7136\u6c14",
                     "legendHoverLink": true,
                     "data": [
                         3.13,
@@ -3285,7 +3279,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Nuclear",
+                    "name": "\u6838\u80fd",
                     "legendHoverLink": true,
                     "data": [
                         0.96,
@@ -3339,7 +3333,6 @@
                     "gridIndex": 0,
                     "axisLabel": {
                         "show": true,
-                        "rotate": 45,
                         "margin": 8,
                         "fontSize": 12
                     },
@@ -3358,22 +3351,23 @@
                         }
                     },
                     "data": [
-                        "Canada",
-                        "US",
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "China",
-                        "India",
-                        "Japan",
-                        "Russian Federation",
-                        "Brazil"
+                        "\u52a0\u62ff\u5927",
+                        "\u7f8e\u56fd",
+                        "\u6cd5\u56fd",
+                        "\u5fb7\u56fd",
+                        "\u82f1\u56fd",
+                        "\u4e2d\u56fd",
+                        "\u610f\u5927\u5229",
+                        "\u65e5\u672c",
+                        "\u4fc4\u7f57\u65af",
+                        "\u5df4\u897f"
                     ]
                 }
             ],
             "yAxis": [
                 {
                     "type": "value",
+                    "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                     "show": true,
                     "scale": false,
                     "nameLocation": "end",
@@ -3382,7 +3376,7 @@
                     "axisLabel": {
                         "show": true,
                         "margin": 8,
-                        "formatter": "{value} Exajoules"
+                        "formatter": "{value}"
                     },
                     "inverse": false,
                     "offset": 0,
@@ -3404,9 +3398,8 @@
             "title": [
                 {
                     "show": true,
-                    "text": "Energy Consumption by Country (2006)",
+                    "text": "\u6309\u56fd\u5bb6\u3001\u80fd\u6e90\u5206\u5217\u7684\u80fd\u6e90\u6d88\u8d39\u603b\u91cf (2006)",
                     "target": "blank",
-                    "subtext": "Total energy consumption by country, by energy source",
                     "subtarget": "blank",
                     "padding": 5,
                     "itemGap": 10,
@@ -3453,20 +3446,20 @@
             "legend": [
                 {
                     "data": [
-                        "Renewables",
-                        "Hydro",
-                        "Oil",
-                        "Coal",
-                        "Gas",
-                        "Nuclear"
+                        "\u53ef\u518d\u751f\u80fd\u6e90",
+                        "\u6c34\u7535",
+                        "\u77f3\u6cb9",
+                        "\u7164\u70ad",
+                        "\u5929\u7136\u6c14",
+                        "\u6838\u80fd"
                     ],
                     "selected": {
-                        "Renewables": true,
-                        "Hydro": true,
-                        "Oil": true,
-                        "Coal": true,
-                        "Gas": true,
-                        "Nuclear": true
+                        "\u53ef\u518d\u751f\u80fd\u6e90": true,
+                        "\u6c34\u7535": true,
+                        "\u77f3\u6cb9": true,
+                        "\u7164\u70ad": true,
+                        "\u5929\u7136\u6c14": true,
+                        "\u6838\u80fd": true
                     },
                     "show": true,
                     "left": "right",
@@ -3496,7 +3489,7 @@
             "series": [
                 {
                     "type": "bar",
-                    "name": "Renewables",
+                    "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                     "legendHoverLink": true,
                     "data": [
                         0.16,
@@ -3541,7 +3534,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Hydro",
+                    "name": "\u6c34\u7535",
                     "legendHoverLink": true,
                     "data": [
                         3.74,
@@ -3586,7 +3579,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Oil",
+                    "name": "\u77f3\u6cb9",
                     "legendHoverLink": true,
                     "data": [
                         4.64,
@@ -3631,7 +3624,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Coal",
+                    "name": "\u7164\u70ad",
                     "legendHoverLink": true,
                     "data": [
                         1.27,
@@ -3676,7 +3669,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Gas",
+                    "name": "\u5929\u7136\u6c14",
                     "legendHoverLink": true,
                     "data": [
                         3.37,
@@ -3721,7 +3714,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Nuclear",
+                    "name": "\u6838\u80fd",
                     "legendHoverLink": true,
                     "data": [
                         0.91,
@@ -3775,7 +3768,6 @@
                     "gridIndex": 0,
                     "axisLabel": {
                         "show": true,
-                        "rotate": 45,
                         "margin": 8,
                         "fontSize": 12
                     },
@@ -3794,22 +3786,23 @@
                         }
                     },
                     "data": [
-                        "Canada",
-                        "US",
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "China",
-                        "India",
-                        "Japan",
-                        "Russian Federation",
-                        "Brazil"
+                        "\u52a0\u62ff\u5927",
+                        "\u7f8e\u56fd",
+                        "\u6cd5\u56fd",
+                        "\u5fb7\u56fd",
+                        "\u82f1\u56fd",
+                        "\u4e2d\u56fd",
+                        "\u610f\u5927\u5229",
+                        "\u65e5\u672c",
+                        "\u4fc4\u7f57\u65af",
+                        "\u5df4\u897f"
                     ]
                 }
             ],
             "yAxis": [
                 {
                     "type": "value",
+                    "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                     "show": true,
                     "scale": false,
                     "nameLocation": "end",
@@ -3818,7 +3811,7 @@
                     "axisLabel": {
                         "show": true,
                         "margin": 8,
-                        "formatter": "{value} Exajoules"
+                        "formatter": "{value}"
                     },
                     "inverse": false,
                     "offset": 0,
@@ -3840,9 +3833,8 @@
             "title": [
                 {
                     "show": true,
-                    "text": "Energy Consumption by Country (2007)",
+                    "text": "\u6309\u56fd\u5bb6\u3001\u80fd\u6e90\u5206\u5217\u7684\u80fd\u6e90\u6d88\u8d39\u603b\u91cf (2007)",
                     "target": "blank",
-                    "subtext": "Total energy consumption by country, by energy source",
                     "subtarget": "blank",
                     "padding": 5,
                     "itemGap": 10,
@@ -3889,20 +3881,20 @@
             "legend": [
                 {
                     "data": [
-                        "Renewables",
-                        "Hydro",
-                        "Oil",
-                        "Coal",
-                        "Gas",
-                        "Nuclear"
+                        "\u53ef\u518d\u751f\u80fd\u6e90",
+                        "\u6c34\u7535",
+                        "\u77f3\u6cb9",
+                        "\u7164\u70ad",
+                        "\u5929\u7136\u6c14",
+                        "\u6838\u80fd"
                     ],
                     "selected": {
-                        "Renewables": true,
-                        "Hydro": true,
-                        "Oil": true,
-                        "Coal": true,
-                        "Gas": true,
-                        "Nuclear": true
+                        "\u53ef\u518d\u751f\u80fd\u6e90": true,
+                        "\u6c34\u7535": true,
+                        "\u77f3\u6cb9": true,
+                        "\u7164\u70ad": true,
+                        "\u5929\u7136\u6c14": true,
+                        "\u6838\u80fd": true
                     },
                     "show": true,
                     "left": "right",
@@ -3932,7 +3924,7 @@
             "series": [
                 {
                     "type": "bar",
-                    "name": "Renewables",
+                    "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                     "legendHoverLink": true,
                     "data": [
                         0.16,
@@ -3977,7 +3969,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Hydro",
+                    "name": "\u6c34\u7535",
                     "legendHoverLink": true,
                     "data": [
                         3.82,
@@ -4022,7 +4014,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Oil",
+                    "name": "\u77f3\u6cb9",
                     "legendHoverLink": true,
                     "data": [
                         4.48,
@@ -4067,7 +4059,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Coal",
+                    "name": "\u7164\u70ad",
                     "legendHoverLink": true,
                     "data": [
                         1.21,
@@ -4112,7 +4104,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Gas",
+                    "name": "\u5929\u7136\u6c14",
                     "legendHoverLink": true,
                     "data": [
                         3.33,
@@ -4157,7 +4149,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Nuclear",
+                    "name": "\u6838\u80fd",
                     "legendHoverLink": true,
                     "data": [
                         0.93,
@@ -4211,7 +4203,6 @@
                     "gridIndex": 0,
                     "axisLabel": {
                         "show": true,
-                        "rotate": 45,
                         "margin": 8,
                         "fontSize": 12
                     },
@@ -4230,22 +4221,23 @@
                         }
                     },
                     "data": [
-                        "Canada",
-                        "US",
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "China",
-                        "India",
-                        "Japan",
-                        "Russian Federation",
-                        "Brazil"
+                        "\u52a0\u62ff\u5927",
+                        "\u7f8e\u56fd",
+                        "\u6cd5\u56fd",
+                        "\u5fb7\u56fd",
+                        "\u82f1\u56fd",
+                        "\u4e2d\u56fd",
+                        "\u610f\u5927\u5229",
+                        "\u65e5\u672c",
+                        "\u4fc4\u7f57\u65af",
+                        "\u5df4\u897f"
                     ]
                 }
             ],
             "yAxis": [
                 {
                     "type": "value",
+                    "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                     "show": true,
                     "scale": false,
                     "nameLocation": "end",
@@ -4254,7 +4246,7 @@
                     "axisLabel": {
                         "show": true,
                         "margin": 8,
-                        "formatter": "{value} Exajoules"
+                        "formatter": "{value}"
                     },
                     "inverse": false,
                     "offset": 0,
@@ -4276,9 +4268,8 @@
             "title": [
                 {
                     "show": true,
-                    "text": "Energy Consumption by Country (2008)",
+                    "text": "\u6309\u56fd\u5bb6\u3001\u80fd\u6e90\u5206\u5217\u7684\u80fd\u6e90\u6d88\u8d39\u603b\u91cf (2008)",
                     "target": "blank",
-                    "subtext": "Total energy consumption by country, by energy source",
                     "subtarget": "blank",
                     "padding": 5,
                     "itemGap": 10,
@@ -4325,20 +4316,20 @@
             "legend": [
                 {
                     "data": [
-                        "Renewables",
-                        "Hydro",
-                        "Oil",
-                        "Coal",
-                        "Gas",
-                        "Nuclear"
+                        "\u53ef\u518d\u751f\u80fd\u6e90",
+                        "\u6c34\u7535",
+                        "\u77f3\u6cb9",
+                        "\u7164\u70ad",
+                        "\u5929\u7136\u6c14",
+                        "\u6838\u80fd"
                     ],
                     "selected": {
-                        "Renewables": true,
-                        "Hydro": true,
-                        "Oil": true,
-                        "Coal": true,
-                        "Gas": true,
-                        "Nuclear": true
+                        "\u53ef\u518d\u751f\u80fd\u6e90": true,
+                        "\u6c34\u7535": true,
+                        "\u77f3\u6cb9": true,
+                        "\u7164\u70ad": true,
+                        "\u5929\u7136\u6c14": true,
+                        "\u6838\u80fd": true
                     },
                     "show": true,
                     "left": "right",
@@ -4368,7 +4359,7 @@
             "series": [
                 {
                     "type": "bar",
-                    "name": "Renewables",
+                    "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                     "legendHoverLink": true,
                     "data": [
                         0.2,
@@ -4413,7 +4404,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Hydro",
+                    "name": "\u6c34\u7535",
                     "legendHoverLink": true,
                     "data": [
                         3.71,
@@ -4458,7 +4449,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Oil",
+                    "name": "\u77f3\u6cb9",
                     "legendHoverLink": true,
                     "data": [
                         4.37,
@@ -4503,7 +4494,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Coal",
+                    "name": "\u7164\u70ad",
                     "legendHoverLink": true,
                     "data": [
                         1.01,
@@ -4548,7 +4539,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Gas",
+                    "name": "\u5929\u7136\u6c14",
                     "legendHoverLink": true,
                     "data": [
                         3.23,
@@ -4593,7 +4584,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Nuclear",
+                    "name": "\u6838\u80fd",
                     "legendHoverLink": true,
                     "data": [
                         0.86,
@@ -4647,7 +4638,6 @@
                     "gridIndex": 0,
                     "axisLabel": {
                         "show": true,
-                        "rotate": 45,
                         "margin": 8,
                         "fontSize": 12
                     },
@@ -4666,22 +4656,23 @@
                         }
                     },
                     "data": [
-                        "Canada",
-                        "US",
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "China",
-                        "India",
-                        "Japan",
-                        "Russian Federation",
-                        "Brazil"
+                        "\u52a0\u62ff\u5927",
+                        "\u7f8e\u56fd",
+                        "\u6cd5\u56fd",
+                        "\u5fb7\u56fd",
+                        "\u82f1\u56fd",
+                        "\u4e2d\u56fd",
+                        "\u610f\u5927\u5229",
+                        "\u65e5\u672c",
+                        "\u4fc4\u7f57\u65af",
+                        "\u5df4\u897f"
                     ]
                 }
             ],
             "yAxis": [
                 {
                     "type": "value",
+                    "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                     "show": true,
                     "scale": false,
                     "nameLocation": "end",
@@ -4690,7 +4681,7 @@
                     "axisLabel": {
                         "show": true,
                         "margin": 8,
-                        "formatter": "{value} Exajoules"
+                        "formatter": "{value}"
                     },
                     "inverse": false,
                     "offset": 0,
@@ -4712,9 +4703,8 @@
             "title": [
                 {
                     "show": true,
-                    "text": "Energy Consumption by Country (2009)",
+                    "text": "\u6309\u56fd\u5bb6\u3001\u80fd\u6e90\u5206\u5217\u7684\u80fd\u6e90\u6d88\u8d39\u603b\u91cf (2009)",
                     "target": "blank",
-                    "subtext": "Total energy consumption by country, by energy source",
                     "subtarget": "blank",
                     "padding": 5,
                     "itemGap": 10,
@@ -4761,20 +4751,20 @@
             "legend": [
                 {
                     "data": [
-                        "Renewables",
-                        "Hydro",
-                        "Oil",
-                        "Coal",
-                        "Gas",
-                        "Nuclear"
+                        "\u53ef\u518d\u751f\u80fd\u6e90",
+                        "\u6c34\u7535",
+                        "\u77f3\u6cb9",
+                        "\u7164\u70ad",
+                        "\u5929\u7136\u6c14",
+                        "\u6838\u80fd"
                     ],
                     "selected": {
-                        "Renewables": true,
-                        "Hydro": true,
-                        "Oil": true,
-                        "Coal": true,
-                        "Gas": true,
-                        "Nuclear": true
+                        "\u53ef\u518d\u751f\u80fd\u6e90": true,
+                        "\u6c34\u7535": true,
+                        "\u77f3\u6cb9": true,
+                        "\u7164\u70ad": true,
+                        "\u5929\u7136\u6c14": true,
+                        "\u6838\u80fd": true
                     },
                     "show": true,
                     "left": "right",
@@ -4804,7 +4794,7 @@
             "series": [
                 {
                     "type": "bar",
-                    "name": "Renewables",
+                    "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                     "legendHoverLink": true,
                     "data": [
                         0.25,
@@ -4849,7 +4839,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Hydro",
+                    "name": "\u6c34\u7535",
                     "legendHoverLink": true,
                     "data": [
                         3.51,
@@ -4894,7 +4884,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Oil",
+                    "name": "\u77f3\u6cb9",
                     "legendHoverLink": true,
                     "data": [
                         4.57,
@@ -4939,7 +4929,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Coal",
+                    "name": "\u7164\u70ad",
                     "legendHoverLink": true,
                     "data": [
                         1.03,
@@ -4984,7 +4974,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Gas",
+                    "name": "\u5929\u7136\u6c14",
                     "legendHoverLink": true,
                     "data": [
                         3.3,
@@ -5029,7 +5019,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Nuclear",
+                    "name": "\u6838\u80fd",
                     "legendHoverLink": true,
                     "data": [
                         0.86,
@@ -5083,7 +5073,6 @@
                     "gridIndex": 0,
                     "axisLabel": {
                         "show": true,
-                        "rotate": 45,
                         "margin": 8,
                         "fontSize": 12
                     },
@@ -5102,22 +5091,23 @@
                         }
                     },
                     "data": [
-                        "Canada",
-                        "US",
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "China",
-                        "India",
-                        "Japan",
-                        "Russian Federation",
-                        "Brazil"
+                        "\u52a0\u62ff\u5927",
+                        "\u7f8e\u56fd",
+                        "\u6cd5\u56fd",
+                        "\u5fb7\u56fd",
+                        "\u82f1\u56fd",
+                        "\u4e2d\u56fd",
+                        "\u610f\u5927\u5229",
+                        "\u65e5\u672c",
+                        "\u4fc4\u7f57\u65af",
+                        "\u5df4\u897f"
                     ]
                 }
             ],
             "yAxis": [
                 {
                     "type": "value",
+                    "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                     "show": true,
                     "scale": false,
                     "nameLocation": "end",
@@ -5126,7 +5116,7 @@
                     "axisLabel": {
                         "show": true,
                         "margin": 8,
-                        "formatter": "{value} Exajoules"
+                        "formatter": "{value}"
                     },
                     "inverse": false,
                     "offset": 0,
@@ -5148,9 +5138,8 @@
             "title": [
                 {
                     "show": true,
-                    "text": "Energy Consumption by Country (2010)",
+                    "text": "\u6309\u56fd\u5bb6\u3001\u80fd\u6e90\u5206\u5217\u7684\u80fd\u6e90\u6d88\u8d39\u603b\u91cf (2010)",
                     "target": "blank",
-                    "subtext": "Total energy consumption by country, by energy source",
                     "subtarget": "blank",
                     "padding": 5,
                     "itemGap": 10,
@@ -5197,20 +5186,20 @@
             "legend": [
                 {
                     "data": [
-                        "Renewables",
-                        "Hydro",
-                        "Oil",
-                        "Coal",
-                        "Gas",
-                        "Nuclear"
+                        "\u53ef\u518d\u751f\u80fd\u6e90",
+                        "\u6c34\u7535",
+                        "\u77f3\u6cb9",
+                        "\u7164\u70ad",
+                        "\u5929\u7136\u6c14",
+                        "\u6838\u80fd"
                     ],
                     "selected": {
-                        "Renewables": true,
-                        "Hydro": true,
-                        "Oil": true,
-                        "Coal": true,
-                        "Gas": true,
-                        "Nuclear": true
+                        "\u53ef\u518d\u751f\u80fd\u6e90": true,
+                        "\u6c34\u7535": true,
+                        "\u77f3\u6cb9": true,
+                        "\u7164\u70ad": true,
+                        "\u5929\u7136\u6c14": true,
+                        "\u6838\u80fd": true
                     },
                     "show": true,
                     "left": "right",
@@ -5240,7 +5229,7 @@
             "series": [
                 {
                     "type": "bar",
-                    "name": "Renewables",
+                    "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                     "legendHoverLink": true,
                     "data": [
                         0.28,
@@ -5285,7 +5274,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Hydro",
+                    "name": "\u6c34\u7535",
                     "legendHoverLink": true,
                     "data": [
                         3.73,
@@ -5330,7 +5319,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Oil",
+                    "name": "\u77f3\u6cb9",
                     "legendHoverLink": true,
                     "data": [
                         4.58,
@@ -5375,7 +5364,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Coal",
+                    "name": "\u7164\u70ad",
                     "legendHoverLink": true,
                     "data": [
                         0.93,
@@ -5420,7 +5409,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Gas",
+                    "name": "\u5929\u7136\u6c14",
                     "legendHoverLink": true,
                     "data": [
                         3.62,
@@ -5465,7 +5454,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Nuclear",
+                    "name": "\u6838\u80fd",
                     "legendHoverLink": true,
                     "data": [
                         0.89,
@@ -5519,7 +5508,6 @@
                     "gridIndex": 0,
                     "axisLabel": {
                         "show": true,
-                        "rotate": 45,
                         "margin": 8,
                         "fontSize": 12
                     },
@@ -5538,22 +5526,23 @@
                         }
                     },
                     "data": [
-                        "Canada",
-                        "US",
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "China",
-                        "India",
-                        "Japan",
-                        "Russian Federation",
-                        "Brazil"
+                        "\u52a0\u62ff\u5927",
+                        "\u7f8e\u56fd",
+                        "\u6cd5\u56fd",
+                        "\u5fb7\u56fd",
+                        "\u82f1\u56fd",
+                        "\u4e2d\u56fd",
+                        "\u610f\u5927\u5229",
+                        "\u65e5\u672c",
+                        "\u4fc4\u7f57\u65af",
+                        "\u5df4\u897f"
                     ]
                 }
             ],
             "yAxis": [
                 {
                     "type": "value",
+                    "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                     "show": true,
                     "scale": false,
                     "nameLocation": "end",
@@ -5562,7 +5551,7 @@
                     "axisLabel": {
                         "show": true,
                         "margin": 8,
-                        "formatter": "{value} Exajoules"
+                        "formatter": "{value}"
                     },
                     "inverse": false,
                     "offset": 0,
@@ -5584,9 +5573,8 @@
             "title": [
                 {
                     "show": true,
-                    "text": "Energy Consumption by Country (2011)",
+                    "text": "\u6309\u56fd\u5bb6\u3001\u80fd\u6e90\u5206\u5217\u7684\u80fd\u6e90\u6d88\u8d39\u603b\u91cf (2011)",
                     "target": "blank",
-                    "subtext": "Total energy consumption by country, by energy source",
                     "subtarget": "blank",
                     "padding": 5,
                     "itemGap": 10,
@@ -5633,20 +5621,20 @@
             "legend": [
                 {
                     "data": [
-                        "Renewables",
-                        "Hydro",
-                        "Oil",
-                        "Coal",
-                        "Gas",
-                        "Nuclear"
+                        "\u53ef\u518d\u751f\u80fd\u6e90",
+                        "\u6c34\u7535",
+                        "\u77f3\u6cb9",
+                        "\u7164\u70ad",
+                        "\u5929\u7136\u6c14",
+                        "\u6838\u80fd"
                     ],
                     "selected": {
-                        "Renewables": true,
-                        "Hydro": true,
-                        "Oil": true,
-                        "Coal": true,
-                        "Gas": true,
-                        "Nuclear": true
+                        "\u53ef\u518d\u751f\u80fd\u6e90": true,
+                        "\u6c34\u7535": true,
+                        "\u77f3\u6cb9": true,
+                        "\u7164\u70ad": true,
+                        "\u5929\u7136\u6c14": true,
+                        "\u6838\u80fd": true
                     },
                     "show": true,
                     "left": "right",
@@ -5676,7 +5664,7 @@
             "series": [
                 {
                     "type": "bar",
-                    "name": "Renewables",
+                    "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                     "legendHoverLink": true,
                     "data": [
                         0.32,
@@ -5721,7 +5709,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Hydro",
+                    "name": "\u6c34\u7535",
                     "legendHoverLink": true,
                     "data": [
                         3.75,
@@ -5766,7 +5754,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Oil",
+                    "name": "\u77f3\u6cb9",
                     "legendHoverLink": true,
                     "data": [
                         4.64,
@@ -5811,7 +5799,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Coal",
+                    "name": "\u7164\u70ad",
                     "legendHoverLink": true,
                     "data": [
                         0.88,
@@ -5856,7 +5844,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Gas",
+                    "name": "\u5929\u7136\u6c14",
                     "legendHoverLink": true,
                     "data": [
                         3.58,
@@ -5901,7 +5889,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Nuclear",
+                    "name": "\u6838\u80fd",
                     "legendHoverLink": true,
                     "data": [
                         0.89,
@@ -5955,7 +5943,6 @@
                     "gridIndex": 0,
                     "axisLabel": {
                         "show": true,
-                        "rotate": 45,
                         "margin": 8,
                         "fontSize": 12
                     },
@@ -5974,22 +5961,23 @@
                         }
                     },
                     "data": [
-                        "Canada",
-                        "US",
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "China",
-                        "India",
-                        "Japan",
-                        "Russian Federation",
-                        "Brazil"
+                        "\u52a0\u62ff\u5927",
+                        "\u7f8e\u56fd",
+                        "\u6cd5\u56fd",
+                        "\u5fb7\u56fd",
+                        "\u82f1\u56fd",
+                        "\u4e2d\u56fd",
+                        "\u610f\u5927\u5229",
+                        "\u65e5\u672c",
+                        "\u4fc4\u7f57\u65af",
+                        "\u5df4\u897f"
                     ]
                 }
             ],
             "yAxis": [
                 {
                     "type": "value",
+                    "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                     "show": true,
                     "scale": false,
                     "nameLocation": "end",
@@ -5998,7 +5986,7 @@
                     "axisLabel": {
                         "show": true,
                         "margin": 8,
-                        "formatter": "{value} Exajoules"
+                        "formatter": "{value}"
                     },
                     "inverse": false,
                     "offset": 0,
@@ -6020,9 +6008,8 @@
             "title": [
                 {
                     "show": true,
-                    "text": "Energy Consumption by Country (2012)",
+                    "text": "\u6309\u56fd\u5bb6\u3001\u80fd\u6e90\u5206\u5217\u7684\u80fd\u6e90\u6d88\u8d39\u603b\u91cf (2012)",
                     "target": "blank",
-                    "subtext": "Total energy consumption by country, by energy source",
                     "subtarget": "blank",
                     "padding": 5,
                     "itemGap": 10,
@@ -6069,20 +6056,20 @@
             "legend": [
                 {
                     "data": [
-                        "Renewables",
-                        "Hydro",
-                        "Oil",
-                        "Coal",
-                        "Gas",
-                        "Nuclear"
+                        "\u53ef\u518d\u751f\u80fd\u6e90",
+                        "\u6c34\u7535",
+                        "\u77f3\u6cb9",
+                        "\u7164\u70ad",
+                        "\u5929\u7136\u6c14",
+                        "\u6838\u80fd"
                     ],
                     "selected": {
-                        "Renewables": true,
-                        "Hydro": true,
-                        "Oil": true,
-                        "Coal": true,
-                        "Gas": true,
-                        "Nuclear": true
+                        "\u53ef\u518d\u751f\u80fd\u6e90": true,
+                        "\u6c34\u7535": true,
+                        "\u77f3\u6cb9": true,
+                        "\u7164\u70ad": true,
+                        "\u5929\u7136\u6c14": true,
+                        "\u6838\u80fd": true
                     },
                     "show": true,
                     "left": "right",
@@ -6112,7 +6099,7 @@
             "series": [
                 {
                     "type": "bar",
-                    "name": "Renewables",
+                    "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                     "legendHoverLink": true,
                     "data": [
                         0.33,
@@ -6157,7 +6144,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Hydro",
+                    "name": "\u6c34\u7535",
                     "legendHoverLink": true,
                     "data": [
                         3.84,
@@ -6202,7 +6189,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Oil",
+                    "name": "\u77f3\u6cb9",
                     "legendHoverLink": true,
                     "data": [
                         4.62,
@@ -6247,7 +6234,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Coal",
+                    "name": "\u7164\u70ad",
                     "legendHoverLink": true,
                     "data": [
                         0.86,
@@ -6292,7 +6279,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Gas",
+                    "name": "\u5929\u7136\u6c14",
                     "legendHoverLink": true,
                     "data": [
                         3.8,
@@ -6337,7 +6324,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Nuclear",
+                    "name": "\u6838\u80fd",
                     "legendHoverLink": true,
                     "data": [
                         0.97,
@@ -6391,7 +6378,6 @@
                     "gridIndex": 0,
                     "axisLabel": {
                         "show": true,
-                        "rotate": 45,
                         "margin": 8,
                         "fontSize": 12
                     },
@@ -6410,22 +6396,23 @@
                         }
                     },
                     "data": [
-                        "Canada",
-                        "US",
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "China",
-                        "India",
-                        "Japan",
-                        "Russian Federation",
-                        "Brazil"
+                        "\u52a0\u62ff\u5927",
+                        "\u7f8e\u56fd",
+                        "\u6cd5\u56fd",
+                        "\u5fb7\u56fd",
+                        "\u82f1\u56fd",
+                        "\u4e2d\u56fd",
+                        "\u610f\u5927\u5229",
+                        "\u65e5\u672c",
+                        "\u4fc4\u7f57\u65af",
+                        "\u5df4\u897f"
                     ]
                 }
             ],
             "yAxis": [
                 {
                     "type": "value",
+                    "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                     "show": true,
                     "scale": false,
                     "nameLocation": "end",
@@ -6434,7 +6421,7 @@
                     "axisLabel": {
                         "show": true,
                         "margin": 8,
-                        "formatter": "{value} Exajoules"
+                        "formatter": "{value}"
                     },
                     "inverse": false,
                     "offset": 0,
@@ -6456,9 +6443,8 @@
             "title": [
                 {
                     "show": true,
-                    "text": "Energy Consumption by Country (2013)",
+                    "text": "\u6309\u56fd\u5bb6\u3001\u80fd\u6e90\u5206\u5217\u7684\u80fd\u6e90\u6d88\u8d39\u603b\u91cf (2013)",
                     "target": "blank",
-                    "subtext": "Total energy consumption by country, by energy source",
                     "subtarget": "blank",
                     "padding": 5,
                     "itemGap": 10,
@@ -6505,20 +6491,20 @@
             "legend": [
                 {
                     "data": [
-                        "Renewables",
-                        "Hydro",
-                        "Oil",
-                        "Coal",
-                        "Gas",
-                        "Nuclear"
+                        "\u53ef\u518d\u751f\u80fd\u6e90",
+                        "\u6c34\u7535",
+                        "\u77f3\u6cb9",
+                        "\u7164\u70ad",
+                        "\u5929\u7136\u6c14",
+                        "\u6838\u80fd"
                     ],
                     "selected": {
-                        "Renewables": true,
-                        "Hydro": true,
-                        "Oil": true,
-                        "Coal": true,
-                        "Gas": true,
-                        "Nuclear": true
+                        "\u53ef\u518d\u751f\u80fd\u6e90": true,
+                        "\u6c34\u7535": true,
+                        "\u77f3\u6cb9": true,
+                        "\u7164\u70ad": true,
+                        "\u5929\u7136\u6c14": true,
+                        "\u6838\u80fd": true
                     },
                     "show": true,
                     "left": "right",
@@ -6548,7 +6534,7 @@
             "series": [
                 {
                     "type": "bar",
-                    "name": "Renewables",
+                    "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                     "legendHoverLink": true,
                     "data": [
                         0.34,
@@ -6593,7 +6579,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Hydro",
+                    "name": "\u6c34\u7535",
                     "legendHoverLink": true,
                     "data": [
                         3.73,
@@ -6638,7 +6624,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Oil",
+                    "name": "\u77f3\u6cb9",
                     "legendHoverLink": true,
                     "data": [
                         4.61,
@@ -6683,7 +6669,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Coal",
+                    "name": "\u7164\u70ad",
                     "legendHoverLink": true,
                     "data": [
                         0.82,
@@ -6728,7 +6714,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Gas",
+                    "name": "\u5929\u7136\u6c14",
                     "legendHoverLink": true,
                     "data": [
                         3.95,
@@ -6773,7 +6759,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Nuclear",
+                    "name": "\u6838\u80fd",
                     "legendHoverLink": true,
                     "data": [
                         1.0,
@@ -6827,7 +6813,6 @@
                     "gridIndex": 0,
                     "axisLabel": {
                         "show": true,
-                        "rotate": 45,
                         "margin": 8,
                         "fontSize": 12
                     },
@@ -6846,22 +6831,23 @@
                         }
                     },
                     "data": [
-                        "Canada",
-                        "US",
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "China",
-                        "India",
-                        "Japan",
-                        "Russian Federation",
-                        "Brazil"
+                        "\u52a0\u62ff\u5927",
+                        "\u7f8e\u56fd",
+                        "\u6cd5\u56fd",
+                        "\u5fb7\u56fd",
+                        "\u82f1\u56fd",
+                        "\u4e2d\u56fd",
+                        "\u610f\u5927\u5229",
+                        "\u65e5\u672c",
+                        "\u4fc4\u7f57\u65af",
+                        "\u5df4\u897f"
                     ]
                 }
             ],
             "yAxis": [
                 {
                     "type": "value",
+                    "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                     "show": true,
                     "scale": false,
                     "nameLocation": "end",
@@ -6870,7 +6856,7 @@
                     "axisLabel": {
                         "show": true,
                         "margin": 8,
-                        "formatter": "{value} Exajoules"
+                        "formatter": "{value}"
                     },
                     "inverse": false,
                     "offset": 0,
@@ -6892,9 +6878,8 @@
             "title": [
                 {
                     "show": true,
-                    "text": "Energy Consumption by Country (2014)",
+                    "text": "\u6309\u56fd\u5bb6\u3001\u80fd\u6e90\u5206\u5217\u7684\u80fd\u6e90\u6d88\u8d39\u603b\u91cf (2014)",
                     "target": "blank",
-                    "subtext": "Total energy consumption by country, by energy source",
                     "subtarget": "blank",
                     "padding": 5,
                     "itemGap": 10,
@@ -6941,20 +6926,20 @@
             "legend": [
                 {
                     "data": [
-                        "Renewables",
-                        "Hydro",
-                        "Oil",
-                        "Coal",
-                        "Gas",
-                        "Nuclear"
+                        "\u53ef\u518d\u751f\u80fd\u6e90",
+                        "\u6c34\u7535",
+                        "\u77f3\u6cb9",
+                        "\u7164\u70ad",
+                        "\u5929\u7136\u6c14",
+                        "\u6838\u80fd"
                     ],
                     "selected": {
-                        "Renewables": true,
-                        "Hydro": true,
-                        "Oil": true,
-                        "Coal": true,
-                        "Gas": true,
-                        "Nuclear": true
+                        "\u53ef\u518d\u751f\u80fd\u6e90": true,
+                        "\u6c34\u7535": true,
+                        "\u77f3\u6cb9": true,
+                        "\u7164\u70ad": true,
+                        "\u5929\u7136\u6c14": true,
+                        "\u6838\u80fd": true
                     },
                     "show": true,
                     "left": "right",
@@ -6984,7 +6969,7 @@
             "series": [
                 {
                     "type": "bar",
-                    "name": "Renewables",
+                    "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                     "legendHoverLink": true,
                     "data": [
                         0.48,
@@ -7029,7 +7014,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Hydro",
+                    "name": "\u6c34\u7535",
                     "legendHoverLink": true,
                     "data": [
                         3.71,
@@ -7074,7 +7059,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Oil",
+                    "name": "\u77f3\u6cb9",
                     "legendHoverLink": true,
                     "data": [
                         4.63,
@@ -7119,7 +7104,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Coal",
+                    "name": "\u7164\u70ad",
                     "legendHoverLink": true,
                     "data": [
                         0.82,
@@ -7164,7 +7149,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Gas",
+                    "name": "\u5929\u7136\u6c14",
                     "legendHoverLink": true,
                     "data": [
                         3.97,
@@ -7209,7 +7194,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Nuclear",
+                    "name": "\u6838\u80fd",
                     "legendHoverLink": true,
                     "data": [
                         0.94,
@@ -7263,7 +7248,6 @@
                     "gridIndex": 0,
                     "axisLabel": {
                         "show": true,
-                        "rotate": 45,
                         "margin": 8,
                         "fontSize": 12
                     },
@@ -7282,22 +7266,23 @@
                         }
                     },
                     "data": [
-                        "Canada",
-                        "US",
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "China",
-                        "India",
-                        "Japan",
-                        "Russian Federation",
-                        "Brazil"
+                        "\u52a0\u62ff\u5927",
+                        "\u7f8e\u56fd",
+                        "\u6cd5\u56fd",
+                        "\u5fb7\u56fd",
+                        "\u82f1\u56fd",
+                        "\u4e2d\u56fd",
+                        "\u610f\u5927\u5229",
+                        "\u65e5\u672c",
+                        "\u4fc4\u7f57\u65af",
+                        "\u5df4\u897f"
                     ]
                 }
             ],
             "yAxis": [
                 {
                     "type": "value",
+                    "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                     "show": true,
                     "scale": false,
                     "nameLocation": "end",
@@ -7306,7 +7291,7 @@
                     "axisLabel": {
                         "show": true,
                         "margin": 8,
-                        "formatter": "{value} Exajoules"
+                        "formatter": "{value}"
                     },
                     "inverse": false,
                     "offset": 0,
@@ -7328,9 +7313,8 @@
             "title": [
                 {
                     "show": true,
-                    "text": "Energy Consumption by Country (2015)",
+                    "text": "\u6309\u56fd\u5bb6\u3001\u80fd\u6e90\u5206\u5217\u7684\u80fd\u6e90\u6d88\u8d39\u603b\u91cf (2015)",
                     "target": "blank",
-                    "subtext": "Total energy consumption by country, by energy source",
                     "subtarget": "blank",
                     "padding": 5,
                     "itemGap": 10,
@@ -7377,20 +7361,20 @@
             "legend": [
                 {
                     "data": [
-                        "Renewables",
-                        "Hydro",
-                        "Oil",
-                        "Coal",
-                        "Gas",
-                        "Nuclear"
+                        "\u53ef\u518d\u751f\u80fd\u6e90",
+                        "\u6c34\u7535",
+                        "\u77f3\u6cb9",
+                        "\u7164\u70ad",
+                        "\u5929\u7136\u6c14",
+                        "\u6838\u80fd"
                     ],
                     "selected": {
-                        "Renewables": true,
-                        "Hydro": true,
-                        "Oil": true,
-                        "Coal": true,
-                        "Gas": true,
-                        "Nuclear": true
+                        "\u53ef\u518d\u751f\u80fd\u6e90": true,
+                        "\u6c34\u7535": true,
+                        "\u77f3\u6cb9": true,
+                        "\u7164\u70ad": true,
+                        "\u5929\u7136\u6c14": true,
+                        "\u6838\u80fd": true
                     },
                     "show": true,
                     "left": "right",
@@ -7420,7 +7404,7 @@
             "series": [
                 {
                     "type": "bar",
-                    "name": "Renewables",
+                    "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                     "legendHoverLink": true,
                     "data": [
                         0.54,
@@ -7465,7 +7449,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Hydro",
+                    "name": "\u6c34\u7535",
                     "legendHoverLink": true,
                     "data": [
                         3.71,
@@ -7510,7 +7494,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Oil",
+                    "name": "\u77f3\u6cb9",
                     "legendHoverLink": true,
                     "data": [
                         4.61,
@@ -7555,7 +7539,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Coal",
+                    "name": "\u7164\u70ad",
                     "legendHoverLink": true,
                     "data": [
                         0.77,
@@ -7600,7 +7584,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Gas",
+                    "name": "\u5929\u7136\u6c14",
                     "legendHoverLink": true,
                     "data": [
                         3.78,
@@ -7645,7 +7629,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Nuclear",
+                    "name": "\u6838\u80fd",
                     "legendHoverLink": true,
                     "data": [
                         0.93,
@@ -7699,7 +7683,6 @@
                     "gridIndex": 0,
                     "axisLabel": {
                         "show": true,
-                        "rotate": 45,
                         "margin": 8,
                         "fontSize": 12
                     },
@@ -7718,22 +7701,23 @@
                         }
                     },
                     "data": [
-                        "Canada",
-                        "US",
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "China",
-                        "India",
-                        "Japan",
-                        "Russian Federation",
-                        "Brazil"
+                        "\u52a0\u62ff\u5927",
+                        "\u7f8e\u56fd",
+                        "\u6cd5\u56fd",
+                        "\u5fb7\u56fd",
+                        "\u82f1\u56fd",
+                        "\u4e2d\u56fd",
+                        "\u610f\u5927\u5229",
+                        "\u65e5\u672c",
+                        "\u4fc4\u7f57\u65af",
+                        "\u5df4\u897f"
                     ]
                 }
             ],
             "yAxis": [
                 {
                     "type": "value",
+                    "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                     "show": true,
                     "scale": false,
                     "nameLocation": "end",
@@ -7742,7 +7726,7 @@
                     "axisLabel": {
                         "show": true,
                         "margin": 8,
-                        "formatter": "{value} Exajoules"
+                        "formatter": "{value}"
                     },
                     "inverse": false,
                     "offset": 0,
@@ -7764,9 +7748,8 @@
             "title": [
                 {
                     "show": true,
-                    "text": "Energy Consumption by Country (2016)",
+                    "text": "\u6309\u56fd\u5bb6\u3001\u80fd\u6e90\u5206\u5217\u7684\u80fd\u6e90\u6d88\u8d39\u603b\u91cf (2016)",
                     "target": "blank",
-                    "subtext": "Total energy consumption by country, by energy source",
                     "subtarget": "blank",
                     "padding": 5,
                     "itemGap": 10,
@@ -7813,20 +7796,20 @@
             "legend": [
                 {
                     "data": [
-                        "Renewables",
-                        "Hydro",
-                        "Oil",
-                        "Coal",
-                        "Gas",
-                        "Nuclear"
+                        "\u53ef\u518d\u751f\u80fd\u6e90",
+                        "\u6c34\u7535",
+                        "\u77f3\u6cb9",
+                        "\u7164\u70ad",
+                        "\u5929\u7136\u6c14",
+                        "\u6838\u80fd"
                     ],
                     "selected": {
-                        "Renewables": true,
-                        "Hydro": true,
-                        "Oil": true,
-                        "Coal": true,
-                        "Gas": true,
-                        "Nuclear": true
+                        "\u53ef\u518d\u751f\u80fd\u6e90": true,
+                        "\u6c34\u7535": true,
+                        "\u77f3\u6cb9": true,
+                        "\u7164\u70ad": true,
+                        "\u5929\u7136\u6c14": true,
+                        "\u6838\u80fd": true
                     },
                     "show": true,
                     "left": "right",
@@ -7856,7 +7839,7 @@
             "series": [
                 {
                     "type": "bar",
-                    "name": "Renewables",
+                    "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                     "legendHoverLink": true,
                     "data": [
                         0.55,
@@ -7901,7 +7884,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Hydro",
+                    "name": "\u6c34\u7535",
                     "legendHoverLink": true,
                     "data": [
                         3.78,
@@ -7946,7 +7929,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Oil",
+                    "name": "\u77f3\u6cb9",
                     "legendHoverLink": true,
                     "data": [
                         4.57,
@@ -7991,7 +7974,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Coal",
+                    "name": "\u7164\u70ad",
                     "legendHoverLink": true,
                     "data": [
                         0.8,
@@ -8036,7 +8019,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Gas",
+                    "name": "\u5929\u7136\u6c14",
                     "legendHoverLink": true,
                     "data": [
                         3.96,
@@ -8081,7 +8064,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Nuclear",
+                    "name": "\u6838\u80fd",
                     "legendHoverLink": true,
                     "data": [
                         0.92,
@@ -8135,7 +8118,6 @@
                     "gridIndex": 0,
                     "axisLabel": {
                         "show": true,
-                        "rotate": 45,
                         "margin": 8,
                         "fontSize": 12
                     },
@@ -8154,22 +8136,23 @@
                         }
                     },
                     "data": [
-                        "Canada",
-                        "US",
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "China",
-                        "India",
-                        "Japan",
-                        "Russian Federation",
-                        "Brazil"
+                        "\u52a0\u62ff\u5927",
+                        "\u7f8e\u56fd",
+                        "\u6cd5\u56fd",
+                        "\u5fb7\u56fd",
+                        "\u82f1\u56fd",
+                        "\u4e2d\u56fd",
+                        "\u610f\u5927\u5229",
+                        "\u65e5\u672c",
+                        "\u4fc4\u7f57\u65af",
+                        "\u5df4\u897f"
                     ]
                 }
             ],
             "yAxis": [
                 {
                     "type": "value",
+                    "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                     "show": true,
                     "scale": false,
                     "nameLocation": "end",
@@ -8178,7 +8161,7 @@
                     "axisLabel": {
                         "show": true,
                         "margin": 8,
-                        "formatter": "{value} Exajoules"
+                        "formatter": "{value}"
                     },
                     "inverse": false,
                     "offset": 0,
@@ -8200,9 +8183,8 @@
             "title": [
                 {
                     "show": true,
-                    "text": "Energy Consumption by Country (2017)",
+                    "text": "\u6309\u56fd\u5bb6\u3001\u80fd\u6e90\u5206\u5217\u7684\u80fd\u6e90\u6d88\u8d39\u603b\u91cf (2017)",
                     "target": "blank",
-                    "subtext": "Total energy consumption by country, by energy source",
                     "subtarget": "blank",
                     "padding": 5,
                     "itemGap": 10,
@@ -8249,20 +8231,20 @@
             "legend": [
                 {
                     "data": [
-                        "Renewables",
-                        "Hydro",
-                        "Oil",
-                        "Coal",
-                        "Gas",
-                        "Nuclear"
+                        "\u53ef\u518d\u751f\u80fd\u6e90",
+                        "\u6c34\u7535",
+                        "\u77f3\u6cb9",
+                        "\u7164\u70ad",
+                        "\u5929\u7136\u6c14",
+                        "\u6838\u80fd"
                     ],
                     "selected": {
-                        "Renewables": true,
-                        "Hydro": true,
-                        "Oil": true,
-                        "Coal": true,
-                        "Gas": true,
-                        "Nuclear": true
+                        "\u53ef\u518d\u751f\u80fd\u6e90": true,
+                        "\u6c34\u7535": true,
+                        "\u77f3\u6cb9": true,
+                        "\u7164\u70ad": true,
+                        "\u5929\u7136\u6c14": true,
+                        "\u6838\u80fd": true
                     },
                     "show": true,
                     "left": "right",
@@ -8292,7 +8274,7 @@
             "series": [
                 {
                     "type": "bar",
-                    "name": "Renewables",
+                    "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                     "legendHoverLink": true,
                     "data": [
                         0.56,
@@ -8337,7 +8319,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Hydro",
+                    "name": "\u6c34\u7535",
                     "legendHoverLink": true,
                     "data": [
                         3.68,
@@ -8382,7 +8364,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Oil",
+                    "name": "\u77f3\u6cb9",
                     "legendHoverLink": true,
                     "data": [
                         4.73,
@@ -8427,7 +8409,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Coal",
+                    "name": "\u7164\u70ad",
                     "legendHoverLink": true,
                     "data": [
                         0.65,
@@ -8472,7 +8454,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Gas",
+                    "name": "\u5929\u7136\u6c14",
                     "legendHoverLink": true,
                     "data": [
                         4.16,
@@ -8517,7 +8499,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Nuclear",
+                    "name": "\u6838\u80fd",
                     "legendHoverLink": true,
                     "data": [
                         0.91,
@@ -8571,7 +8553,6 @@
                     "gridIndex": 0,
                     "axisLabel": {
                         "show": true,
-                        "rotate": 45,
                         "margin": 8,
                         "fontSize": 12
                     },
@@ -8590,22 +8571,23 @@
                         }
                     },
                     "data": [
-                        "Canada",
-                        "US",
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "China",
-                        "India",
-                        "Japan",
-                        "Russian Federation",
-                        "Brazil"
+                        "\u52a0\u62ff\u5927",
+                        "\u7f8e\u56fd",
+                        "\u6cd5\u56fd",
+                        "\u5fb7\u56fd",
+                        "\u82f1\u56fd",
+                        "\u4e2d\u56fd",
+                        "\u610f\u5927\u5229",
+                        "\u65e5\u672c",
+                        "\u4fc4\u7f57\u65af",
+                        "\u5df4\u897f"
                     ]
                 }
             ],
             "yAxis": [
                 {
                     "type": "value",
+                    "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                     "show": true,
                     "scale": false,
                     "nameLocation": "end",
@@ -8614,7 +8596,7 @@
                     "axisLabel": {
                         "show": true,
                         "margin": 8,
-                        "formatter": "{value} Exajoules"
+                        "formatter": "{value}"
                     },
                     "inverse": false,
                     "offset": 0,
@@ -8636,9 +8618,8 @@
             "title": [
                 {
                     "show": true,
-                    "text": "Energy Consumption by Country (2018)",
+                    "text": "\u6309\u56fd\u5bb6\u3001\u80fd\u6e90\u5206\u5217\u7684\u80fd\u6e90\u6d88\u8d39\u603b\u91cf (2018)",
                     "target": "blank",
-                    "subtext": "Total energy consumption by country, by energy source",
                     "subtarget": "blank",
                     "padding": 5,
                     "itemGap": 10,
@@ -8685,20 +8666,20 @@
             "legend": [
                 {
                     "data": [
-                        "Renewables",
-                        "Hydro",
-                        "Oil",
-                        "Coal",
-                        "Gas",
-                        "Nuclear"
+                        "\u53ef\u518d\u751f\u80fd\u6e90",
+                        "\u6c34\u7535",
+                        "\u77f3\u6cb9",
+                        "\u7164\u70ad",
+                        "\u5929\u7136\u6c14",
+                        "\u6838\u80fd"
                     ],
                     "selected": {
-                        "Renewables": true,
-                        "Hydro": true,
-                        "Oil": true,
-                        "Coal": true,
-                        "Gas": true,
-                        "Nuclear": true
+                        "\u53ef\u518d\u751f\u80fd\u6e90": true,
+                        "\u6c34\u7535": true,
+                        "\u77f3\u6cb9": true,
+                        "\u7164\u70ad": true,
+                        "\u5929\u7136\u6c14": true,
+                        "\u6838\u80fd": true
                     },
                     "show": true,
                     "left": "right",
@@ -8728,7 +8709,7 @@
             "series": [
                 {
                     "type": "bar",
-                    "name": "Renewables",
+                    "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                     "legendHoverLink": true,
                     "data": [
                         0.56,
@@ -8773,7 +8754,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Hydro",
+                    "name": "\u6c34\u7535",
                     "legendHoverLink": true,
                     "data": [
                         3.62,
@@ -8818,7 +8799,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Oil",
+                    "name": "\u77f3\u6cb9",
                     "legendHoverLink": true,
                     "data": [
                         4.7,
@@ -8863,7 +8844,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Coal",
+                    "name": "\u7164\u70ad",
                     "legendHoverLink": true,
                     "data": [
                         0.61,
@@ -8908,7 +8889,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Gas",
+                    "name": "\u5929\u7136\u6c14",
                     "legendHoverLink": true,
                     "data": [
                         4.22,
@@ -8953,7 +8934,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Nuclear",
+                    "name": "\u6838\u80fd",
                     "legendHoverLink": true,
                     "data": [
                         0.92,
@@ -9007,7 +8988,6 @@
                     "gridIndex": 0,
                     "axisLabel": {
                         "show": true,
-                        "rotate": 45,
                         "margin": 8,
                         "fontSize": 12
                     },
@@ -9026,22 +9006,23 @@
                         }
                     },
                     "data": [
-                        "Canada",
-                        "US",
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "China",
-                        "India",
-                        "Japan",
-                        "Russian Federation",
-                        "Brazil"
+                        "\u52a0\u62ff\u5927",
+                        "\u7f8e\u56fd",
+                        "\u6cd5\u56fd",
+                        "\u5fb7\u56fd",
+                        "\u82f1\u56fd",
+                        "\u4e2d\u56fd",
+                        "\u610f\u5927\u5229",
+                        "\u65e5\u672c",
+                        "\u4fc4\u7f57\u65af",
+                        "\u5df4\u897f"
                     ]
                 }
             ],
             "yAxis": [
                 {
                     "type": "value",
+                    "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                     "show": true,
                     "scale": false,
                     "nameLocation": "end",
@@ -9050,7 +9031,7 @@
                     "axisLabel": {
                         "show": true,
                         "margin": 8,
-                        "formatter": "{value} Exajoules"
+                        "formatter": "{value}"
                     },
                     "inverse": false,
                     "offset": 0,
@@ -9072,9 +9053,8 @@
             "title": [
                 {
                     "show": true,
-                    "text": "Energy Consumption by Country (2019)",
+                    "text": "\u6309\u56fd\u5bb6\u3001\u80fd\u6e90\u5206\u5217\u7684\u80fd\u6e90\u6d88\u8d39\u603b\u91cf (2019)",
                     "target": "blank",
-                    "subtext": "Total energy consumption by country, by energy source",
                     "subtarget": "blank",
                     "padding": 5,
                     "itemGap": 10,
@@ -9121,20 +9101,20 @@
             "legend": [
                 {
                     "data": [
-                        "Renewables",
-                        "Hydro",
-                        "Oil",
-                        "Coal",
-                        "Gas",
-                        "Nuclear"
+                        "\u53ef\u518d\u751f\u80fd\u6e90",
+                        "\u6c34\u7535",
+                        "\u77f3\u6cb9",
+                        "\u7164\u70ad",
+                        "\u5929\u7136\u6c14",
+                        "\u6838\u80fd"
                     ],
                     "selected": {
-                        "Renewables": true,
-                        "Hydro": true,
-                        "Oil": true,
-                        "Coal": true,
-                        "Gas": true,
-                        "Nuclear": true
+                        "\u53ef\u518d\u751f\u80fd\u6e90": true,
+                        "\u6c34\u7535": true,
+                        "\u77f3\u6cb9": true,
+                        "\u7164\u70ad": true,
+                        "\u5929\u7136\u6c14": true,
+                        "\u6838\u80fd": true
                     },
                     "show": true,
                     "left": "right",
@@ -9164,7 +9144,7 @@
             "series": [
                 {
                     "type": "bar",
-                    "name": "Renewables",
+                    "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                     "legendHoverLink": true,
                     "data": [
                         0.57,
@@ -9209,7 +9189,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Hydro",
+                    "name": "\u6c34\u7535",
                     "legendHoverLink": true,
                     "data": [
                         3.65,
@@ -9254,7 +9234,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Oil",
+                    "name": "\u77f3\u6cb9",
                     "legendHoverLink": true,
                     "data": [
                         4.11,
@@ -9299,7 +9279,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Coal",
+                    "name": "\u7164\u70ad",
                     "legendHoverLink": true,
                     "data": [
                         0.53,
@@ -9344,7 +9324,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Gas",
+                    "name": "\u5929\u7136\u6c14",
                     "legendHoverLink": true,
                     "data": [
                         4.08,
@@ -9389,7 +9369,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Nuclear",
+                    "name": "\u6838\u80fd",
                     "legendHoverLink": true,
                     "data": [
                         0.88,
@@ -9443,7 +9423,6 @@
                     "gridIndex": 0,
                     "axisLabel": {
                         "show": true,
-                        "rotate": 45,
                         "margin": 8,
                         "fontSize": 12
                     },
@@ -9462,22 +9441,23 @@
                         }
                     },
                     "data": [
-                        "Canada",
-                        "US",
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "China",
-                        "India",
-                        "Japan",
-                        "Russian Federation",
-                        "Brazil"
+                        "\u52a0\u62ff\u5927",
+                        "\u7f8e\u56fd",
+                        "\u6cd5\u56fd",
+                        "\u5fb7\u56fd",
+                        "\u82f1\u56fd",
+                        "\u4e2d\u56fd",
+                        "\u610f\u5927\u5229",
+                        "\u65e5\u672c",
+                        "\u4fc4\u7f57\u65af",
+                        "\u5df4\u897f"
                     ]
                 }
             ],
             "yAxis": [
                 {
                     "type": "value",
+                    "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                     "show": true,
                     "scale": false,
                     "nameLocation": "end",
@@ -9486,7 +9466,7 @@
                     "axisLabel": {
                         "show": true,
                         "margin": 8,
-                        "formatter": "{value} Exajoules"
+                        "formatter": "{value}"
                     },
                     "inverse": false,
                     "offset": 0,
@@ -9508,9 +9488,8 @@
             "title": [
                 {
                     "show": true,
-                    "text": "Energy Consumption by Country (2020)",
+                    "text": "\u6309\u56fd\u5bb6\u3001\u80fd\u6e90\u5206\u5217\u7684\u80fd\u6e90\u6d88\u8d39\u603b\u91cf (2020)",
                     "target": "blank",
-                    "subtext": "Total energy consumption by country, by energy source",
                     "subtarget": "blank",
                     "padding": 5,
                     "itemGap": 10,
@@ -9557,20 +9536,20 @@
             "legend": [
                 {
                     "data": [
-                        "Renewables",
-                        "Hydro",
-                        "Oil",
-                        "Coal",
-                        "Gas",
-                        "Nuclear"
+                        "\u53ef\u518d\u751f\u80fd\u6e90",
+                        "\u6c34\u7535",
+                        "\u77f3\u6cb9",
+                        "\u7164\u70ad",
+                        "\u5929\u7136\u6c14",
+                        "\u6838\u80fd"
                     ],
                     "selected": {
-                        "Renewables": true,
-                        "Hydro": true,
-                        "Oil": true,
-                        "Coal": true,
-                        "Gas": true,
-                        "Nuclear": true
+                        "\u53ef\u518d\u751f\u80fd\u6e90": true,
+                        "\u6c34\u7535": true,
+                        "\u77f3\u6cb9": true,
+                        "\u7164\u70ad": true,
+                        "\u5929\u7136\u6c14": true,
+                        "\u6838\u80fd": true
                     },
                     "show": true,
                     "left": "right",
@@ -9600,7 +9579,7 @@
             "series": [
                 {
                     "type": "bar",
-                    "name": "Renewables",
+                    "name": "\u53ef\u518d\u751f\u80fd\u6e90",
                     "legendHoverLink": true,
                     "data": [
                         0.58,
@@ -9645,7 +9624,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Hydro",
+                    "name": "\u6c34\u7535",
                     "legendHoverLink": true,
                     "data": [
                         3.59,
@@ -9690,7 +9669,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Oil",
+                    "name": "\u77f3\u6cb9",
                     "legendHoverLink": true,
                     "data": [
                         4.17,
@@ -9735,7 +9714,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Coal",
+                    "name": "\u7164\u70ad",
                     "legendHoverLink": true,
                     "data": [
                         0.48,
@@ -9780,7 +9759,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Gas",
+                    "name": "\u5929\u7136\u6c14",
                     "legendHoverLink": true,
                     "data": [
                         4.29,
@@ -9825,7 +9804,7 @@
                 },
                 {
                     "type": "bar",
-                    "name": "Nuclear",
+                    "name": "\u6838\u80fd",
                     "legendHoverLink": true,
                     "data": [
                         0.83,
@@ -9879,7 +9858,6 @@
                     "gridIndex": 0,
                     "axisLabel": {
                         "show": true,
-                        "rotate": 45,
                         "margin": 8,
                         "fontSize": 12
                     },
@@ -9898,22 +9876,23 @@
                         }
                     },
                     "data": [
-                        "Canada",
-                        "US",
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "China",
-                        "India",
-                        "Japan",
-                        "Russian Federation",
-                        "Brazil"
+                        "\u52a0\u62ff\u5927",
+                        "\u7f8e\u56fd",
+                        "\u6cd5\u56fd",
+                        "\u5fb7\u56fd",
+                        "\u82f1\u56fd",
+                        "\u4e2d\u56fd",
+                        "\u610f\u5927\u5229",
+                        "\u65e5\u672c",
+                        "\u4fc4\u7f57\u65af",
+                        "\u5df4\u897f"
                     ]
                 }
             ],
             "yAxis": [
                 {
                     "type": "value",
+                    "name": "\u6d88\u8d39\u91cf/\u827e\u7126(Exajoules)",
                     "show": true,
                     "scale": false,
                     "nameLocation": "end",
@@ -9922,7 +9901,7 @@
                     "axisLabel": {
                         "show": true,
                         "margin": 8,
-                        "formatter": "{value} Exajoules"
+                        "formatter": "{value}"
                     },
                     "inverse": false,
                     "offset": 0,
@@ -9944,9 +9923,8 @@
             "title": [
                 {
                     "show": true,
-                    "text": "Energy Consumption by Country (2021)",
+                    "text": "\u6309\u56fd\u5bb6\u3001\u80fd\u6e90\u5206\u5217\u7684\u80fd\u6e90\u6d88\u8d39\u603b\u91cf (2021)",
                     "target": "blank",
-                    "subtext": "Total energy consumption by country, by energy source",
                     "subtarget": "blank",
                     "padding": 5,
                     "itemGap": 10,
@@ -9991,7 +9969,7 @@
         }
     ]
 };
-        chart_57bd29c9e00f4227895112b94c9ca2c4.setOption(option_57bd29c9e00f4227895112b94c9ca2c4);
+        chart_1c194954eb6046c491bde9e02bbd169d.setOption(option_1c194954eb6046c491bde9e02bbd169d);
     </script>
 </body>
 </html>
